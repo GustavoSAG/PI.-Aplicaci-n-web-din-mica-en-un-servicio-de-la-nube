@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog de Notas Multimedia</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo del sitio">
+        </div>
+        <h1>Blog de Notas Multimedia</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            
+            
+            <form id="noteForm">
+                <label for="noteInput">Nueva Nota:</label>
+                <textarea id="noteInput" required></textarea>
+
+                <label for="mediaInput">Enlace a Multimedia:</label>
+                <input type="text" id="mediaInput">
+
+                <button type="submit">Agregar</button>
+            </form>
+
+            <ul id="noteList"></ul>
+        </div>
+    </div>
+    <div class="footer">
+        Nombre del curso: Conceptualización de servicios en la nube<br>
+        Nombre: Gustavo Saldivar Agredano<br>
+        Código: 221968226<br>
+        Correo de contacto: Gustavo.saldivar@udgvirtual.udg.mx
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
